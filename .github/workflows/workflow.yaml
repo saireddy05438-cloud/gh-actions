@@ -1,0 +1,8 @@
+name: "this is first GA WF"
+on: push
+jobs:
+    myfrst:
+        runs-on: ubuntu-latest
+        steps:
+          - name: myfrststep
+            run: echo "Hello world" 
