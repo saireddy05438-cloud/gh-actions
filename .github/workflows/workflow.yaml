@@ -11,7 +11,6 @@ jobs:
         steps:
             - name: second
               run: |
-                echo "i will pass"   
-                exit 1     
+                echo "i will pass"       
             - name: final
               run: echo "Hello Bye"
