@@ -1,10 +1,6 @@
 name: wf gh events
 on:
     push:
-    pull_request: 
-    workflow_dispatch: 
-    schedule:
-        - cron: '0/5 * * * *'
 jobs:
     echo:
       runs-on: ubuntu-latest
