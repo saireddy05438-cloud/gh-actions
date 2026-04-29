@@ -6,3 +6,12 @@ jobs:
         steps:
           - name: myfrststep
             run: echo "Hello world" 
+    mysecond:
+        runs-on: ubuntu-latest
+        steps:
+            - name: second
+              run: |
+                echo "i will pass"   
+                exit 1     
+            - name: final
+              run: echo "Hello Bye"
